@@ -71,6 +71,31 @@ Bünü Yampanın Bir Çok Yolu Var Ben React'dan useState Hook'unu  Kullanarak Y
 ![Screenshot (6)](https://user-images.githubusercontent.com/77425377/206822787-2cca3324-15ed-4cf4-aea3-aaf7b05439ed.png)
 
 
+# 5- Firmada çalışman için sana remote bir linux server verildi. Elinde ip adresi port bilgisi kullanıcı adi ve şifren var. Server a erişimi nasıl test edersin, Server a nasıl erişirsin, Server a nasıl dosya atarsın, Serverdan nasıl dosya çekersin
 
+SSH ile Bağlantı Yaparım
+
+## SSH Nedir?
+
+SSH (Secure Shell) ağ üzerinde güvenli iletişim kurmamızı sağlayan protokoldür, client/server mimarisi ile çalışır. SSH sayesinde server ve client arasında authentication, dosya transferi, ve uzak makineye göndereceğimiz komutlar şifrelenerek ağ üzerindeki ataklardan korunur
+
+
+**ssh -p {port numarası} {kullanıcı adı}@{sunucu adresi}** Uzak sucunuya ssh ile bağlanmak için
+
+## SSH İLE DOSYA TRANSFERİ
+
+### Serverdan dosya çekmek
+
+“enoca” diye bir kullanıcımız olsun ve kendi bilgisayarımıza kayıt yapacağız. enoca’da bulunan masaüstünde deneme.txt dosyasını bizim home dizinine kopyalayalım.
+
+**scp alınacak-dosya-yeri nereye-kaydedecek**
+
+**scp enoca@192.168.10.1:/home/enoca/Masaüstü/deneme.txt /home/**
+
+bu adımdan sonra enoca root şifresini isteyecek. Şifre giriş başarılı ise kopyalama başarılıdır diyecek.
+
+### Serverdan dosya atmak
+
+scp enoca.txt enoca@192.168.10.10:/home/enoca/Masaüstü/deneme.txt
 
 
