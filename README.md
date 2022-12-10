@@ -59,3 +59,18 @@ Asenkron iletişimde ise aslında bahsettiğim gibi, request atıldığında ser
 Asenkron Request — Response şu şekilde çalışır ilk olarak üretici kuyruğa bir mesaj gönderir,
 Tüketici bu mesajı eşzamansız olarak işleyecektir.Tüketici mesajı işledikten sonra, bir cevap mesajı oluşturacak ve onu tamamen farklı bir kuyruğa gönderecektir. Üretici daha sonra cevap kuyruğundaki cevap mesajını tüketecektir.
 
+
+
+
+# 3-Bir web sayfasında ekran sürekli Backend’ den veya bir başka yapı tarafından güncelleniyor. Siz, web sayfasını refresh etmeden bu güncel bilgiyi anlık ekrana nasıl yansıtırsınız
+
+Bünü Yampanın Bir Çok Yolu Var Ben React'dan useState Hook'unu  Kullanarak Yapcam
+
+
+
+![Screenshot (6)](https://user-images.githubusercontent.com/77425377/206822787-2cca3324-15ed-4cf4-aea3-aaf7b05439ed.png)
+
+
+
+
+
