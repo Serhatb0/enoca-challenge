@@ -1,3 +1,17 @@
+# Documents
+
+Projede Veri Tabanı Olarak postgres Kullandım ayrıca postgresql local kurmadım docker kullandım docker-compose.yml  dosyasının olduğu yere giderek **docker-compose up -d**
+diyerek postgresql i ayağa kaldırabilirsinz eğer pgadmin den bakmak isterseniz http://localhost:5000/browser/ giderek bakabilirsiniz
+
+Spring boot 3.0.0 Kullandım ve Dto Sınıfları Record Olarak Kullandım ve dto donuşumlerimi static convert metotu kullandım
+
+
+
+Entity diagram Aşağıdaki Gibidir
+
+![ss](https://user-images.githubusercontent.com/77425377/206906673-ef2387dd-1006-4259-82ae-45e7ae273db4.png)
+
+
 # 1-MVC kavramını açıklar mısınız ? Neden ihtiyaç duyuluyor. Java’da nasıl kurgulanıyor.Object Oriented katmanları nelerdir ? 
 
 Mvc, uygulama geliştirmede kullanılan mimari tasarım desenlerinden (design pattern) biridir,
@@ -105,17 +119,5 @@ scp enoca.txt enoca@192.168.10.10:/home/enoca/Masaüstü/deneme.txt
 http://example?query=updatedAt:[NOW TO NOW]&NOW=1577829420000
 
 
-# Documents
-
-Projede Veri Tabanı Olarak postgres Kullandım ayrıca postgresql local kurmadım docker kullandım docker-compose.yml  dosyasının olduğu yere giderek **docker-compose up -d**
-diyerek postgresql i ayağa kaldırabilirsinz eğer pgadmin den bakmak isterseniz http://localhost:5000/browser/ giderek bakabilirsiniz
-
-Spring boot 3.0.0 Kullandım ve Dto Sınıfları Record Olarak Kullandım ve dto donuşumlerimi static convert metotu kullandım
-
-
-
-Entity diagram Aşağıdaki Gibidir
-
-![ss](https://user-images.githubusercontent.com/77425377/206906673-ef2387dd-1006-4259-82ae-45e7ae273db4.png)
 
 
