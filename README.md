@@ -116,7 +116,8 @@ scp enoca.txt enoca@192.168.10.10:/home/enoca/Masaüstü/deneme.txt
 # 7- Apache Solr servisine yazılacak bir query örneği Apache Solr kullanılan sql programlarından daha farklı runtime bir database. Solr a hali hazırda kayıtlı bir alan olduğunu düşünelim. Alanın ismi “updatedAt” long tipinde tutulan bir alan. Ben 2020 Ocak ayından sonraki verileri getir dediğimde solr a nasıl bir query yazılmalı. http://example?query= kısmını nasıl doldurmalıyım?
 
 
-http://example?query=updatedAt:[NOW TO NOW]&NOW=1577829420000
+http://example?q=updatedAt:[20200101 TO *]
+
 
 
 
